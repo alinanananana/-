@@ -1,0 +1,7 @@
+surname = input()
+name = input()
+group = input()
+print('Привет,',surname, name,'из группы', group + '!')
+print('Введи свою электронную почту?')
+mail = input()
+print(surname.lower()[:5] + 2 * (name.lower()[:5]) + 3 * mail.lower()[:5])
